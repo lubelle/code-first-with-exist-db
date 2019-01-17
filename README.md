@@ -23,9 +23,11 @@ steps:
 7. add new class
 8. PM>add-migration addNewClass -> creates empty migration
 9. add DbSet<newClass> in DbContext
-10. PM>add-migration addNewClass -Force 
-11. add Sql() to addNewClass 
-12. PM>update-database
+10. PM>add-migration addNewClass [-Force] 
+11. add Sql() to addNewClass   [optional]
+12. PM>update-database        
+
+repeat step 10 - 12
 
 
 
