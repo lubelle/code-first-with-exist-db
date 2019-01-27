@@ -10,8 +10,12 @@ code first with existing database
 	-adding a new property
 	-modifying an existing property
 	-deleting an existing proerty
-
-
+## Downgrading database
+	-using a blank database:checkout the older version;change the db name in the connection string; update-database
+	-using an existing database
+	use latest source code; update-database -TargetMigration:<<name>>;checkout the right version of source code; checkout the latest version; update-database
+## Seeding database
+	
 
 
 
